@@ -33,9 +33,13 @@ luac.out
 
 # Executables
 *.exe
+*.lnk
 *.out
 *.app
 *.i*86
 *.x86_64
 *.hex
+*.love
 
+
+pkg/
