@@ -3,8 +3,8 @@ require "engine.debug.vardump"
 local shader
 
 function love.load()
-    local testShaderCode = love.filesystem.read("shaders/test.glsl")
-    shader = love.graphics.newShader(testShaderCode)
+    local shaderCode = love.filesystem.read("shaders/fractal.glsl")
+    shader = love.graphics.newShader(shaderCode)
 end
 
 function love.draw()
